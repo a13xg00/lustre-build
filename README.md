@@ -1,8 +1,6 @@
-# jenkins-docker
+lustre-release build CI
 
-docker-compose build
-
-docker-compose up -d
-
-docker-compose ps
-
+centos 7.3
+lustre v 2.9.*
+Mellanox-OFED v3.4 
+kernel 3.10.0-514.2.2.el7.x86_64 

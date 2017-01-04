@@ -1,0 +1,193 @@
+DKMS make.log for zfs-0.6.5.8 for kernel 3.10.0-514.2.2.el7.x86_64 (x86_64)
+Mon Jan  2 02:59:18 EST 2017
+make  all-recursive
+make[1]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build'
+Making all in include
+make[2]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/include'
+Making all in linux
+make[3]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/include/linux'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/include/linux'
+Making all in sys
+make[3]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/include/sys'
+Making all in fm
+make[4]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/include/sys/fm'
+Making all in fs
+make[5]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/include/sys/fm/fs'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/include/sys/fm/fs'
+make[5]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/include/sys/fm'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/include/sys/fm'
+make[4]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/include/sys/fm'
+Making all in fs
+make[4]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/include/sys/fs'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/include/sys/fs'
+make[4]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/include/sys'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/include/sys'
+make[3]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/include/sys'
+make[3]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/include'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/include'
+make[2]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/include'
+Making all in rpm
+make[2]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/rpm'
+Making all in generic
+make[3]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/rpm/generic'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/rpm/generic'
+Making all in redhat
+make[3]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/rpm/redhat'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/rpm/redhat'
+make[3]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/rpm'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/rpm'
+make[2]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/rpm'
+Making all in module
+make[2]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build/module'
+make -C /lib/modules/3.10.0-514.2.2.el7.x86_64/build SUBDIRS=`pwd`  CONFIG_ZFS=m modules
+make[3]: Entering directory `/usr/src/kernels/3.10.0-514.2.2.el7.x86_64'
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/avl/avl.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/nvpair/nvpair.o
+  LD [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/avl/zavl.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/unicode/u8_textprep.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/nvpair/fnvpair.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/unicode/uconv.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/nvpair/nvpair_alloc_spl.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/nvpair/nvpair_alloc_fixed.o
+  LD [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/unicode/zunicode.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zcommon/zfs_deleg.o
+  LD [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/nvpair/znvpair.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/arc.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zcommon/zfs_prop.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zcommon/zprop_common.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/blkptr.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zcommon/zfs_namecheck.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/bplist.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zcommon/zfs_comutil.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/bpobj.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zcommon/zfs_fletcher.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dbuf.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zcommon/zfs_uio.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zcommon/zpool_prop.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dbuf_stats.o
+  LD [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zcommon/zcommon.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/bptree.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zpios/pios.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/ddt.o
+  LD [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zpios/zpios.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/ddt_zap.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dmu.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dmu_diff.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dmu_object.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dmu_objset.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dmu_send.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dmu_traverse.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dmu_tx.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dmu_zfetch.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dnode.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dnode_sync.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dsl_dataset.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dsl_deadlist.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dsl_deleg.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dsl_bookmark.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dsl_dir.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dsl_pool.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dsl_prop.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dsl_scan.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dsl_synctask.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/fm.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/gzip.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/lzjb.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/lz4.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/metaslab.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/multilist.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/range_tree.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/refcount.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/rrwlock.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/sa.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/sha256.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/spa.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/spa_boot.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/spa_config.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/spa_errlog.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/spa_history.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/spa_misc.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/spa_stats.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/space_map.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/space_reftree.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/txg.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/trace.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/uberblock.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/unique.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/vdev.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/vdev_cache.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/vdev_disk.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/vdev_file.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/vdev_label.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/vdev_mirror.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/vdev_missing.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/vdev_queue.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/vdev_raidz.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/vdev_root.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zap.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zap_leaf.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zap_micro.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfeature.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfeature_common.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_acl.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_byteswap.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_ctldir.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_debug.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_dir.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_fm.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_fuid.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_ioctl.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_log.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_onexit.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_replay.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_rlock.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_sa.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_vfsops.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_vnops.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs_znode.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zil.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zio.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zio_checksum.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zio_compress.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zio_inject.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zle.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zpl_ctldir.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zpl_export.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zpl_file.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zpl_inode.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zpl_super.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zpl_xattr.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zrlock.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zvol.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dsl_destroy.o
+  CC [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/dsl_userhold.o
+  LD [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs.o
+  Building modules, stage 2.
+  MODPOST 6 modules
+  CC      /var/lib/dkms/zfs/0.6.5.8/build/module/avl/zavl.mod.o
+  CC      /var/lib/dkms/zfs/0.6.5.8/build/module/nvpair/znvpair.mod.o
+  CC      /var/lib/dkms/zfs/0.6.5.8/build/module/unicode/zunicode.mod.o
+  CC      /var/lib/dkms/zfs/0.6.5.8/build/module/zcommon/zcommon.mod.o
+  CC      /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs.mod.o
+  CC      /var/lib/dkms/zfs/0.6.5.8/build/module/zpios/zpios.mod.o
+  LD [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/avl/zavl.ko
+  LD [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/nvpair/znvpair.ko
+  LD [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/unicode/zunicode.ko
+  LD [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zcommon/zcommon.ko
+  LD [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zfs/zfs.ko
+  LD [M]  /var/lib/dkms/zfs/0.6.5.8/build/module/zpios/zpios.ko
+make[3]: Leaving directory `/usr/src/kernels/3.10.0-514.2.2.el7.x86_64'
+make[2]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build/module'
+make[2]: Entering directory `/var/lib/dkms/zfs/0.6.5.8/build'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build'
+make[1]: Leaving directory `/var/lib/dkms/zfs/0.6.5.8/build'

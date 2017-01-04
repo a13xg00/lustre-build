@@ -1,0 +1,120 @@
+DKMS make.log for spl-0.6.5.8 for kernel 3.10.0-514.2.2.el7.x86_64 (x86_64)
+Mon Jan  2 02:56:01 EST 2017
+make  all-recursive
+make[1]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build'
+Making all in include
+make[2]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/include'
+Making all in fs
+make[3]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/include/fs'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/include/fs'
+Making all in linux
+make[3]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/include/linux'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/include/linux'
+Making all in rpc
+make[3]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/include/rpc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/include/rpc'
+Making all in sharefs
+make[3]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/include/sharefs'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/include/sharefs'
+Making all in sys
+make[3]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/include/sys'
+Making all in fm
+make[4]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/include/sys/fm'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/include/sys/fm'
+Making all in fs
+make[4]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/include/sys/fs'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/include/sys/fs'
+Making all in sysevent
+make[4]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/include/sys/sysevent'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/include/sys/sysevent'
+make[4]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/include/sys'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/include/sys'
+make[3]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/include/sys'
+Making all in util
+make[3]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/include/util'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/include/util'
+Making all in vm
+make[3]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/include/vm'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/include/vm'
+make[3]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/include'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/include'
+make[2]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/include'
+Making all in rpm
+make[2]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/rpm'
+Making all in generic
+make[3]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/rpm/generic'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/rpm/generic'
+Making all in redhat
+make[3]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/rpm/redhat'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/rpm/redhat'
+make[3]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/rpm'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/rpm'
+make[2]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/rpm'
+Making all in module
+make[2]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build/module'
+make -C /lib/modules/3.10.0-514.2.2.el7.x86_64/build SUBDIRS=`pwd`  CONFIG_SPL=m modules
+make[3]: Entering directory `/usr/src/kernels/3.10.0-514.2.2.el7.x86_64'
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-proc.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-ctl.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-kmem.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-kmem.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-kmem-cache.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-taskq.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-vmem.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-thread.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-random.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-mutex.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-taskq.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-condvar.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-rwlock.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-thread.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-vnode.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-rwlock.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-err.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-time.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-kobj.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-vnode.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-generic.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-kobj.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-atomic.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-atomic.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-mutex.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-kstat.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-list.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-condvar.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-generic.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-xdr.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-cred.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-cred.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-zlib.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-tsd.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat-linux.o
+  LD [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat.o
+  CC [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl-zlib.o
+  LD [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl.o
+  Building modules, stage 2.
+  MODPOST 2 modules
+  CC      /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl.mod.o
+  CC      /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat.mod.o
+  LD [M]  /var/lib/dkms/spl/0.6.5.8/build/module/splat/splat.ko
+  LD [M]  /var/lib/dkms/spl/0.6.5.8/build/module/spl/spl.ko
+make[3]: Leaving directory `/usr/src/kernels/3.10.0-514.2.2.el7.x86_64'
+make[2]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build/module'
+make[2]: Entering directory `/var/lib/dkms/spl/0.6.5.8/build'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build'
+make[1]: Leaving directory `/var/lib/dkms/spl/0.6.5.8/build'
